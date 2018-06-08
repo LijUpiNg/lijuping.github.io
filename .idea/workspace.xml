@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c11a8ad8-590c-4c68-9505-c0896758a843" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="c11a8ad8-590c-4c68-9505-c0896758a843" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,10 +17,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="147" column="175" selection-start-line="147" selection-start-column="175" selection-end-line="147" selection-end-column="175" />
+            <state relative-caret-position="-2199">
+              <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
               <folding>
-                <marker date="1528466985688" expanded="true" signature="16669:17202" ph="..." />
+                <marker date="1528467159208" expanded="true" signature="16276:16809" ph="..." />
               </folding>
             </state>
           </provider>
@@ -150,12 +143,12 @@
       <workItem from="1527478360084" duration="422000" />
       <workItem from="1528078662294" duration="1652000" />
       <workItem from="1528168088121" duration="553000" />
-      <workItem from="1528461756913" duration="1219000" />
+      <workItem from="1528461756913" duration="1731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8448000" />
+    <option name="totallyTimeSpent" value="8960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -192,7 +185,7 @@
         <state relative-caret-position="4845">
           <caret line="285" column="34" lean-forward="true" selection-start-line="285" selection-start-column="34" selection-end-line="285" selection-end-column="34" />
           <folding>
-            <marker date="1528466985688" expanded="true" signature="16669:17202" ph="..." />
+            <marker date="1528467159208" expanded="true" signature="16276:16809" ph="..." />
           </folding>
         </state>
       </provider>
@@ -297,10 +290,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="147" column="175" selection-start-line="147" selection-start-column="175" selection-end-line="147" selection-end-column="175" />
+        <state relative-caret-position="-2199">
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
           <folding>
-            <marker date="1528466985688" expanded="true" signature="16669:17202" ph="..." />
+            <marker date="1528467159208" expanded="true" signature="16276:16809" ph="..." />
           </folding>
         </state>
       </provider>
