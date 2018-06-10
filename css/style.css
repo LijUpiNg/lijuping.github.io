@@ -542,7 +542,7 @@ textarea {
 }
 
 .soc_icons ul li a.icon1 {
-    background: #000000 url('../images/github.jpeg') no-repeat;
+    background: #000000 url('../images/github.png') no-repeat;
 }
 
 .soc_icons ul li a.icon2 {
@@ -763,7 +763,7 @@ textarea {
 
     .left-form, .right-form {
         float: none;
-        margin: 22px 28px;
+        margin: 22px auto;
         width: 92%;
     }
 
@@ -771,6 +771,7 @@ textarea {
         float: none;
         width: 100%;
         margin: 0%;
+        text-align: center;
     }
 
     .widget.meta-social.column.three.last {
@@ -788,12 +789,15 @@ textarea {
     .soc_icons ul li {
         margin: 10px;
         width: 17%;
-        float: left;
+        float: none;
+        display: inline-block;
     }
 
     .soc_icons ul li a span {
         margin-left: 40px;
         font-size: 0.9em;
+        line-height: initial;
+        white-space: nowrap;
     }
 
     .soc_icons ul li a {
@@ -802,23 +806,13 @@ textarea {
     }
 
     .soc_icons ul li a.icon1 {
-        background: #39579D url('../images/icon1.png') no-repeat 16px 9px;
+        background: #39579D url('../images/github.png') no-repeat;
+        background-size: 20px 20px;
     }
 
     .soc_icons ul li a.icon2 {
-        background: #02B3E9 url('../images/icon2.png') no-repeat 11px 12px;
-    }
-
-    .soc_icons ul li a.icon3 {
-        background: #D95333 url('../images/icon3.png') no-repeat 13px 11px;
-    }
-
-    .soc_icons ul li a.icon4 {
-        background: #007BB6 url('../images/icon4.png') no-repeat 12px 8px;
-    }
-
-    .soc_icons ul li a.icon5 {
-        background: #FF0084 url('../images/icon5.png') no-repeat 11px 16px;
+        background: #02B3E9 url('../images/jianshu.jpg') no-repeat;
+        background-size: 20px 20px;
     }
 
     .contact {
@@ -874,7 +868,7 @@ textarea {
     }
 
     .centertxt {
-        width: 60%;
+        width: 80%;
     }
 
     .chart {
@@ -917,12 +911,6 @@ textarea {
     .soc_icons ul li {
         margin: 0px;
         width: 16%;
-        float: left;
-    }
-
-    .soc_icons ul li a span {
-        margin-left: 32px;
-        font-size: 0.9em;
     }
 
     .soc_icons ul li {

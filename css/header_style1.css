@@ -164,6 +164,7 @@
 	}
 	.logo{
 		float: none;
+		margin: 0 auto 10px;
 		text-align: center;
 	}
 	.h_menu{
