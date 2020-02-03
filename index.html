@@ -1,442 +1,63 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>兜兜转转的小菊</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <meta name="keywords" content="兜兜转转的小菊 个人网页"/>
-    <meta name="description" content="兜兜转转的小菊个人网页"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/style.css" rel="stylesheet" type="text/css"/>
-    <link href="css/header_style1.css" rel="stylesheet">
-    <script src="js/jquery.min.js"></script>
-    <script>
-        $(function () {
-            console.log('如果你有好的idea，请记得联系我（562050851@qq.com)');
-        });
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>计算天数</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #day{
+            color: red;
+            font-size: 60px;
+            padding: 0 5px;
+        }
+        html, body, .wrap{
+            width: 100%;
+            height: 100%;
+        }
+        .wrap{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url(zz.jpeg) no-repeat center center;
+            background-size: cover;
+        }
+        .txt{
+            width: 100%;
+            color: #fff;
+            padding-left: 50%;
+        }
+        @media(max-width: 756px) {
+          .txt{
+            padding-left: 0;
+        }
+        }
+    </style>
 </head>
 <body>
-<div class="content" id="home">
     <div class="wrap">
-        <div class="header_style1">
-            <div class="logo">
-                <h1><a href="index.html">兜兜转转的小菊</a></h1>
-            </div>
-            <div class="h_menu">
-                <ul class="flexy-menu thick orange">
-                    <li><a href="#home" class="scroll">首页</a></li>
-                    <li><a href="#Portfolio" class="scroll">个人描述</a></li>
-                    <li><a href="#skills" class="scroll">个人能力</a></li>
-                    <li><a class="scroll" href="#Experience">项目经验</a></li>
-                    <li><a href="#contact" class="scroll">联系方式</a></li>
-                </ul>
-            </div>
-            <div class="clear"></div>
-        </div>
-        <script type="text/javascript" src="js/flexy-menu.js"></script>
-        <link href="css/header_style1.css" rel="stylesheet" type="text/css" media="all"/>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $(".flexy-menu").flexymenu({speed: 400, type: "horizontal", align: "right"});
-            });
-        </script>
-
-        <div class="slider">
-            <div id="da-slider" class="da-slider">
-                <div class="da-slide">
-                    <h2>兜兜转转的小菊</h2>
-
-                    <p>优雅的女汉子</p>
-                    <!--<a href="#mine" class="da-link"><span> WHO ARE YOU</span></a>-->
-                </div>
-
-                <div class="da-slide">
-                    <h2>一只前端程序猿</h2>
-
-                    <p>Hello World!</p>
-                    <!--<a href="#portfolio" class="da-link"><span> 看看作品</span></a>-->
-                </div>
-
-                <div class="da-slide">
-                    <h2>点亮的我的技能</h2>
-
-                    <p>越深的坑，越要用更多的土去填…</p>
-                    <!--<a href="#skill" class="da-link"><span> 我有火苗</span></a>-->
-                </div>
-                <nav class="da-arrows"><span class="da-arrows-prev"></span> <span class="da-arrows-next"></span></nav>
-            </div>
-            <div class="down-arrow"><a href="#group_1" class="scroll"><span> </span></a></div>
-            <link rel="stylesheet" type="text/css" href="css/slider.css"/>
-            <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
-            <script type="text/javascript" src="js/jquery.cslider.js"></script>
-            <script type="text/javascript">
-                $(function () {
-                    $('#da-slider').cslider({
-                        autoplay: true,
-                        bgincrement: 450
-                    });
-
-                });
-            </script>
+        <div class="txt">
+            <p>我们在 2019/08/04 14:48 正式确认关系</p>
+            <h1>今天是爱上战战的第<span id="day"></span>天！</h1>
         </div>
     </div>
-</div>
-
-<!--<div class="copyrights">Collect from <a href="http://www.cssmoban.com/">Website Template</a></div>-->
-<div class="group_2" id="Experience">
-    <h3 class="heading">我的作品</h3>
-    <div class="group_2_items">
-        <div class="wrap">
-            <div id="owl-demo1" class="owl-carousel">
-                <div class="item">
-                    <div class="carousel">
-                        <div class="group_2_img1"><img src="images/img1.jpeg" alt=""></div>
-                        <div class="group_2_text2">
-                            <div class="desc">
-                                <h3>项目名称</h3>
-                                <h4>新彩后台管理</h4>
-                            </div>
-                            <div class="desc">
-                                <h3>角色及描述</h3>
-                                <h4>web端后台管理平台开发。完成后台管理各部分功能，做成响应式的页面。</h4>
-                            </div>
-                            <div class="desc">
-                                <h3>使用技术</h3>
-                                <h4>html + sass + angular4</h4>
-                            </div>
-                            <div class="button_2"><a href="#">Browser</a></div>
-                        </div>
-                        <div class="clear"></div>
-                        <div class="brows_button_3"><a href="#">Browser portfolio</a></div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="carousel">
-                        <div class="group_2_img1"><img src="images/img2.png" alt=""></div>
-                        <div class="group_2_text2">
-                            <div class="desc">
-                                <h3>项目名称</h3>
-                                <h4>XXXX官网</h4>
-                            </div>
-                            <div class="desc">
-                                <h3>角色及描述</h3>
-                                <h4>官网页面开发，公司官网web端开发，要求开发响应式页面。</h4>
-                            </div>
-                            <div class="desc">
-                                <h3>使用技术</h3>
-                                <h4>html + sass + jquery</h4>
-                            </div>
-                            <!--<div class="button_2"><a href="#">Browser</a></div>-->
-                        </div>
-                        <div class="clear"></div>
-                        <div class="brows_button_3"><a href="#">Browser portfolio</a></div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="carousel">
-                        <div class="group_2_img1"><img src="images/img3.jpg" alt=""></div>
-                        <div class="group_2_text2">
-                            <div class="desc">
-                                <h3>项目名称</h3>
-                                <h4>XXXX</h4>
-                            </div>
-                            <div class="desc">
-                                <h3>担任角色</h3>
-                                <h4>web开发</h4>
-                            </div>
-                            <div class="desc">
-                                <h3>项目描述</h3>
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda, harum illo in maxime molestiae odit pariatur possimus tenetur!</h4>
-                            </div>
-                            <div class="button_2"><a href="#">Browser</a></div>
-                        </div>
-                        <div class="clear"></div>
-                        <div class="brows_button_3"><a href="#">Browser portfolio</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<link href="css/owl.carousel.css" rel="stylesheet">
-
-<script src="js/owl.carousel.js"></script>
-<script>
-    $(document).ready(function () {
-
-        $("#owl-demo").owlCarousel({
-            items: 1,
-            lazyLoad: true,
-            autoPlay: true,
-            navigation: true,
-            navigationText: ["", ""],
-            rewindNav: true,
-            scrollPerPage: true,
-            pagination: true,
-            paginationNumbers: false,
-        });
-
-    });
-    $(document).ready(function () {
-
-        $("#owl-demo1").owlCarousel({
-            items: 1,
-            lazyLoad: true,
-            autoPlay: true,
-            navigation: true,
-            navigationText: ["", ""],
-            rewindNav: true,
-            scrollPerPage: true,
-            pagination: false,
-            paginationNumbers: false,
-        });
-
-    });
-    $(document).ready(function () {
-
-        $("#owl-demo2").owlCarousel({
-            items: 1,
-            lazyLoad: true,
-            autoPlay: true,
-            navigation: false,
-            navigationText: ["", ""],
-            rewindNav: false,
-            scrollPerPage: true,
-            pagination: false,
-            paginationNumbers: false,
-        });
-
-    });
-</script>
-<!-- //Owl Carousel Assets -->
-<!--<div class="skills" id="skills">-->
-    <!--<section class="text-light">-->
-        <!--<div class="wrap">-->
-            <!--<div class="row-content1">-->
-                <!--<h3 class="heading">Skills</h3>-->
-                <!--<p class="para">-->
-                    <!--技能还是充实中…… <br>-->
-                    <!--页面内容还在填充中……-->
-                <!--</p>-->
-                <!--<div class="chart" data-percent="73" data-bar-color="#35AFBA" data-animate="4000">-->
-                    <!--<div class="chart-content">-->
-                        <!--<div class="percent"></div>-->
-                        <!--&lt;!&ndash;<div>html + css + Javascript</div>&ndash;&gt;-->
-                        <!--<div>One</div>-->
-                    <!--</div>-->
-                    <!--&lt;!&ndash; chart-content &ndash;&gt;-->
-                <!--</div>-->
-                <!--&lt;!&ndash; chart &ndash;&gt;-->
-                <!--<div class="chart" data-percent="80" data-bar-color="#FF6060" data-animate="2500">-->
-                    <!--<div class="chart-content">-->
-                        <!--<div class="percent"></div>-->
-                        <!--&lt;!&ndash;<div class="chart-title">jquery / typescript / es6</div>&ndash;&gt;-->
-                        <!--<div>Two</div>-->
-                    <!--</div>-->
-                    <!--&lt;!&ndash; chart-content &ndash;&gt;-->
-                <!--</div>-->
-                <!--&lt;!&ndash; chart &ndash;&gt;-->
-                <!--<div class="chart" data-percent="70" data-bar-color="#3AD079" data-animate="3000">-->
-                    <!--<div class="chart-content">-->
-                        <!--<div class="percent"></div>-->
-                        <!--&lt;!&ndash;<div class="chart-title">angular</div>&ndash;&gt;-->
-                        <!--<div>Three</div>-->
-                    <!--</div>-->
-                    <!--&lt;!&ndash; chart-content &ndash;&gt;-->
-                <!--</div>-->
-                <!--&lt;!&ndash; chart &ndash;&gt;-->
-                <!--<div class="chart" data-percent="40" data-bar-color="#58C0E3" data-animate="3500">-->
-                    <!--<div class="chart-content">-->
-                        <!--<div class="percent"></div>-->
-                        <!--<div class="chart-title">others</div>-->
-                    <!--</div>-->
-                    <!--&lt;!&ndash; chart-content &ndash;&gt;-->
-                <!--</div>-->
-                <!--&lt;!&ndash; chart &ndash;&gt;-->
-                <!--<div class="clear"></div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</section>-->
-    <!--<script src="js/plugins.js"></script>-->
-    <!--<script src="js/script.js"></script>-->
-<!--</div>-->
-
-
-<div class="group_3" id="Portfolio">
-    <div class="group_3-items">
-        <div class="wrap">
-            <div id="owl-demo2" class="owl-carousel">
-                <div class="item">
-                    <div class="carousel">
-                        <div class=" group_3_img"><img src="images/img4.jpg" alt="Flipped"></div>
-                        <div class="group_1_text group_3_text">
-                            <h3>Flipped</h3>
-                            <p>Some of us get dipped in flat, some in satin, some in gloss. But every once in a while you find someone who's iridescent, and when you do, nothing will ever compare.</p>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="carousel">
-                        <div class="group_3_img"><img src="images/img.jpeg" alt="有追求"></div>
-                        <div class="group_1_text group_3_text">
-                            <h3>有追求</h3>
-                            <p>人生能追求的三个层次：一是解决自己温饱问题，二是做自己感兴趣的事情，三是自己做的事情有意义。</p>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="carousel">
-                        <div class="group_3_img"><img src="images/img2.jpg" alt="Hello World!"></div>
-                        <div class="group_1_text group_3_text">
-                            <h3>Hello World!</h3>
-                            <p>You got a dream, you gotta protect it. </p>
-                            <p>程序在我机子上没有问题！真的，真的</p>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="contact" id="contact">
-    <div class="wrap">
-        <h3 class="heading">联系方式</h3>
-        <form>
-            <div class="left-form">
-                <ul>
-                    <li class="name"><a href="#" class="icon user"> </a>
-                        <input type="text" placeholder="用户名" name="user" id="user" required>
-                        <div class="clear"></div>
-                    </li>
-                    <li class="email"><a href="#" class="icon mail"> </a>
-                        <input type="email" placeholder="邮箱" name="email" id="email" required>
-                        <div class="clear"></div>
-                    </li>
-                    <div class="clear"></div>
-                    <li>
-                        <input type="text" placeholder="主题" name="subject" id="subject" required>
-                        <div class="clear"></div>
-                    </li>
-                    <li>
-                        <textarea class="plain buffer" placeholder="请您联系我。" name="message" id="messageBody">如果此处发送有问题，请联系旁边QQ邮箱。</textarea>
-                        <div class="clear"></div>
-                    </li>
-                    <div class="send"><a href="#" id="sendEmail">发送</a></div>
-                </ul>
-            </div>
-            <div class="right-form">
-                <div class="soc_icons">
-                    <h4>E-mail</h4>
-                    <p>QQ邮箱：562050851@qq.com</p>
-                    <h4>我是社会人</h4>
-                    <ul>
-                        <li><a class="icon1" href="https://github.com/LijUpiNg" target="_blank"><span>Github</span></a></li>
-                        <li><a class="icon2" href="https://www.jianshu.com/u/e343def0c7ed" target="_blank"><span>简书</span></a></li>
-                        <div class="clear"></div>
-                    </ul>
-                </div>
-            </div>
-            <div class="clear"></div>
-        </form>
-        <script>
-            $(document).on("click", "#sendEmail", function () {
-            // <a href="mailto:test@163.com;test1@163.com?CC=test@163.com&BCC=test@163.com&Subject=Hello&Body=你好">给我发邮件</a>
-                var user = document.getElementById("user").value;
-                var subject = document.getElementById("subject").value;
-                var body = document.getElementById("messageBody").value;
-                var email = document.getElementById("email").value;
-                body += '&&username:' + user + '&&form:' + email;
-                var website = '562050851@qq.com';
-                var url = "mailto:" + website + "?subject=" + subject + "&body=" + body;
-                document.getElementById("sendEmail").setAttribute("href", url);
-                //return fasle;
-            });
-        </script>
-    </div>
-</div>
-
-<div class="footer">
-    <div class="wrap">
-        <div class="row-content buffer clear-after">
-            <section id="top-footer">
-                <div class="widget column three"><!-- la class="widget" è forse generata utomaticamente da wp -->
-                    <h4>Menu</h4>
-                    <ul class="plain">
-                        <li><a href="#home" class="scroll">Home</a></li>
-                        <li><a href="#Portfolio" class="scroll">个人描述</a></li>
-                        <li><a href="#skills" class="scroll">我的技能</a></li>
-                        <li><a class="scroll" href="#Experience">我的经历</a></li>
-                        <li><a href="#contact" class="scroll">联系方式</a></li>
-                        <div class="clear"></div>
-                    </ul>
-                </div>
-                <div class="widget column three">
-                    <h4>Archives</h4>
-                    <ul class="plain">
-                        <li><a href="#">June 2017</a></li>
-                        <!--<li><a href="#">April 2014</a></li>-->
-                        <!--<li><a href="#">May 2014</a></li>-->
-                        <!--<li><a href="#">June 2014</a></li>-->
-                        <!--<li><a href="#">July 2014</a></li>-->
-                        <div class="clear"></div>
-                    </ul>
-                </div>
-                <div class="widget column three">
-                    <h4>Widget</h4>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                </div>
-                <div class="widget meta-social column three last">
-                    <div class="soc_icons soc_icons1">
-                        <h4>Follows</h4>
-                        <ul>
-                            <li><a class="icon1" href="https://github.com/LijUpiNg" target="_blank"></a></li>
-                            <li><a class="icon2" href="https://www.jianshu.com/u/e343def0c7ed" target="_blank"></a></li>
-                        </ul>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </section>
-            <!-- top-footer -->
-
-        </div>
-        <!-- row-content -->
-    </div>
-    <!-- row -->
-    <div class="copy">
-        <p>© 兜兜转转的小菊</p>
-    </div>
-    <!-- scroll_top_btn -->
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-
-            var defaults = {
-                containerID: 'toTop', // fading element id
-                containerHoverID: 'toTopHover', // fading element hover id
-                scrollSpeed: 1200,
-                easingType: 'linear'
-            };
-
-
-            $().UItoTop({easingType: 'easeOutQuart'});
-
-        });
+    <script>
+        function DateMinus(date1,date2){//date1:小日期   date2:大日期
+            var sdate = new Date(date1); 
+            var now = new Date(date2); 
+            var days = now.getTime() - sdate.getTime(); 
+            var day = parseInt(days / (1000 * 60 * 60 * 24)); 
+            return day; 
+        }
+        window.onload = function(){
+            var day = DateMinus('2019-8-4 14:48:00', new Date());
+            var spanDay = document.getElementById('day');
+            spanDay.innerHTML = day;
+        }
     </script>
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-                event.preventDefault();
-                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1200);
-            });
-        });
-    </script>
-    <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a></div>
 </body>
 </html>
